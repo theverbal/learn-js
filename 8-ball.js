@@ -3,7 +3,7 @@ let userName = 'Casey';
 userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 
 // get question to answer
-let userQuestion = 'Am I Michael Jackson?'
+let userQuestion = 'Should I get tacos?'
 
 // repeat question depending on whether a name was supplied
 userName ? console.log(`${userName}, you asked ${userQuestion}`) : console.log(`You asked ${userQuestion}`);
